@@ -31,14 +31,14 @@ export const subtract = (value) => {
     };
 }
 
-export const store_result = (result) => {
+export const storeResult = (result) => {
     return {
         type: STORE_RESULT,
         result: result
     };
 }
 
-export const delete_result = (resultid) => {
+export const deleteResult = (resultid) => {
     return {
         type: DELETE_RESULT,
         resultElId: resultid
